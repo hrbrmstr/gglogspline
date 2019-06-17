@@ -1,0 +1,58 @@
+---
+output: rmarkdown::github_document
+editor_options: 
+  chunk_output_type: inline
+---
+```{r pkg-knitr-opts, include=FALSE}
+knitr:: sopts_chunk$set(
+  collapse = TRUE, fig.retina = 2, message = FALSE, warning = FALSE
+)
+options(width=120)
+```
+
+[![Travis-CI Build Status](https://travis-ci.org/hrbrmstr/gglogspline.svg?branch=master)](https://travis-ci.org/hrbrmstr/gglogspline) 
+[![Coverage Status](https://codecov.io/gh/hrbrmstr/gglogspline/branch/master/graph/badge.svg)](https://codecov.io/gh/hrbrmstr/gglogspline)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/gglogspline)](https://cran.r-project.org/package=gglogspline)
+
+# gglogspline
+
+## Description
+
+## What's Inside The Tin
+
+The following functions are implemented:
+
+## Installation
+
+```{r install-ex, eval=FALSE}
+devtools::install_git("https://git.sr.ht/~hrbrmstr/gglogspline.git")
+# or
+devtools::install_git("https://git.rud.is/hrbrmstr/gglogspline.git")
+# or
+devtools::install_gitlab("hrbrmstr/gglogspline")
+# or
+devtools::install_bitbucket("hrbrmstr/gglogspline")
+# or
+devtools::install_github("hrbrmstr/gglogspline")
+```
+
+## Usage
+
+```{r lib-ex}
+library(gglogspline)
+
+# current version
+packageVersion("gglogspline")
+
+```
+
+## gglogspline Metrics
+
+```{r cloc, echo=FALSE}
+cloc::cloc_pkg_md()
+```
+
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). 
+By participating in this project you agree to abide by its terms.
