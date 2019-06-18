@@ -31,6 +31,8 @@ The following functions are implemented:
 ## Installation
 
 ```{r install-ex, eval=FALSE}
+install("gglogspline", repos = "https://cinc.rud.is")
+# or
 devtools::install_git("https://git.sr.ht/~hrbrmstr/gglogspline.git")
 # or
 devtools::install_git("https://git.rud.is/hrbrmstr/gglogspline.git")

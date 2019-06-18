@@ -3,7 +3,7 @@
 #' @section Computed variables:
 #'
 #' - `density` : the density estimate
-#' - `count`: computed counts (similar to [ggplots::stat_density()])
+#' - `count`: computed counts (similar to [ggplot2::stat_density()])
 #' - `probs`: distribution function
 #' - `survival`: survival function
 #' - `hazard` : hazard function

@@ -25,6 +25,8 @@ The following functions are implemented:
 ## Installation
 
 ``` r
+install("gglogspline", repos = "https://cinc.rud.is")
+# or
 devtools::install_git("https://git.sr.ht/~hrbrmstr/gglogspline.git")
 # or
 devtools::install_git("https://git.rud.is/hrbrmstr/gglogspline.git")
@@ -97,10 +99,10 @@ ggplot(xdf) +
 
 ## gglogspline Metrics
 
-| Lang | \# Files | (%) | LoC |  (%) | Blank lines |  (%) | \# Lines | (%) |
-| :--- | -------: | --: | --: | ---: | ----------: | ---: | -------: | --: |
-| R    |        4 | 0.8 |  63 | 0.67 |          20 | 0.45 |       53 | 0.6 |
-| Rmd  |        1 | 0.2 |  31 | 0.33 |          24 | 0.55 |       36 | 0.4 |
+| Lang | \# Files | (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
+| :--- | -------: | --: | --: | ---: | ----------: | ---: | -------: | ---: |
+| R    |        4 | 0.8 |  63 | 0.66 |          20 | 0.45 |       53 | 0.59 |
+| Rmd  |        1 | 0.2 |  32 | 0.34 |          24 | 0.55 |       37 | 0.41 |
 
 ## Code of Conduct
 
