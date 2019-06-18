@@ -4,7 +4,7 @@ editor_options:
   chunk_output_type: inline
 ---
 ```{r pkg-knitr-opts, include=FALSE}
-knitr:: sopts_chunk$set(
+knitr::opts_chunk$set(
   collapse = TRUE, fig.retina = 2, message = FALSE, warning = FALSE
 )
 options(width=120)
@@ -16,7 +16,11 @@ options(width=120)
 
 # gglogspline
 
+A 'ggplot2' Extension for Visualizing Density, Distribution, Hazard, or Survival Functions using the 'logspline' Package
+
 ## Description
+
+Methods are provided to plot a logspline density, distribution function, hazard function or survival function from a logspline density
 
 ## What's Inside The Tin
 
@@ -40,10 +44,37 @@ devtools::install_github("hrbrmstr/gglogspline")
 
 ```{r lib-ex}
 library(gglogspline)
+library(ggplot2)
 
 # current version
 packageVersion("gglogspline")
 
+```
+
+```{r}
+set.seed(1)
+data.frame(
+  val = rnorm(100)
+) -> xdf
+
+ggplot(xdf) + 
+  stat_logspline(aes(val))
+
+ggplot(xdf) + 
+  stat_logspline(aes(val, y = stat(count))) +
+  labs(title = "logspline (count)")
+
+ggplot(xdf) +
+  stat_logspline(aes(val, y = stat(probs))) +
+  labs(title = "logspline (probability function)")
+
+ggplot(xdf) +
+  stat_logspline(aes(val, y = stat(survival))) +
+  labs(title = "logspline (survival function)")
+
+ggplot(xdf) +
+  stat_logspline(aes(val, y = stat(hazard))) +
+  labs(title = "logspline (hazard function)")
 ```
 
 ## gglogspline Metrics

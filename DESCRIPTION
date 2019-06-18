@@ -1,6 +1,7 @@
 Package: gglogspline
 Type: Package
-Title: gglogspline title goes here otherwise CRAN checks fail
+Title: A 'ggplot2' Extension for Visualizing Density, Distribution, Hazard, or Survival 
+    Functions using the 'logspline' Package
 Version: 0.1.0
 Date: 2019-06-17
 Authors@R: c(
@@ -8,7 +9,8 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: Methods are provided to plot a logspline density, distribution function, 
+    hazard function or survival function from a logspline density.
 URL: https://gitlab.com/hrbrmstr/gglogspline
 BugReports: https://gitlab.com/hrbrmstr/gglogspline/issues
 Encoding: UTF-8
@@ -19,7 +21,7 @@ Suggests:
 Depends:
     R (>= 3.2.0)
 Imports:
-    httr,
-    jsonlite
+    ggplot2,
+    logspline
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1

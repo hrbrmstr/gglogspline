@@ -4,12 +4,11 @@
 \name{gglogspline}
 \alias{gglogspline}
 \alias{gglogspline-package}
-\title{...}
+\title{A 'ggplot2' Extension for Visualizing Density, Distribution, Hazard, or Survival
+Functions using the 'logspline' Package}
 \description{
-\itemize{
-\item URL: \url{https://gitlab.com/hrbrmstr/gglogspline}
-\item BugReports: \url{https://gitlab.com/hrbrmstr/gglogspline/issues}
-}
+Methods are provided to plot a logspline density, distribution function,
+hazard function or survival function from a logspline density
 }
 \seealso{
 Useful links:
