@@ -68,6 +68,17 @@ StatLogspline <- ggproto(
 
 #' Computes logspline density (+ counts estimate), probability, survival & hazard
 #'
+#'
+#' @section Computed variables:
+#'
+#' - `density` : the density estimate
+#' - `count`: computed counts (similar to [ggplot2::stat_density()])
+#' - `probs`: distribution function
+#' - `survival`: survival function
+#' - `hazard` : hazard function
+#'
+#' By default the `y` aesthetic is mapped to `stat(density)`
+#'
 #' @inheritParams ggplot2::stat_density
 #' @param n numbe of points for the density estimation (larger == smoother)
 #' @param max_knots the maximum number of knots. The routine stops adding knots when

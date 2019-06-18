@@ -71,6 +71,19 @@ to the paired geom/stat.}
 \description{
 Computes logspline density (+ counts estimate), probability, survival & hazard
 }
+\section{Computed variables}{
+
+\itemize{
+\item \code{density} : the density estimate
+\item \code{count}: computed counts (similar to \code{\link[ggplot2:stat_density]{ggplot2::stat_density()}})
+\item \code{probs}: distribution function
+\item \code{survival}: survival function
+\item \code{hazard} : hazard function
+}
+
+By default the \code{y} aesthetic is mapped to \code{stat(density)}
+}
+
 \examples{
 library(ggplot2)
 
