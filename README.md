@@ -19,7 +19,7 @@ hazard function or survival function from a logspline density
 
 The following functions are implemented:
 
-  - `stat_logspline`: Computes logpline density (+ counts estimate),
+  - `stat_logspline`: Computes logspline density (+ counts estimate),
     probability, survival & hazard
 
 ## Installation

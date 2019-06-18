@@ -2,7 +2,7 @@
 % Please edit documentation in R/stat-logspline.R
 \name{stat_logspline}
 \alias{stat_logspline}
-\title{Computes logpline density (+ counts estimate), probability, survival & hazard}
+\title{Computes logspline density (+ counts estimate), probability, survival & hazard}
 \usage{
 stat_logspline(mapping = NULL, data = NULL, geom = "area",
   position = "identity", na.rm = FALSE, show.legend = NA,
@@ -69,7 +69,7 @@ often aesthetics, used to set an aesthetic to a fixed value, like
 to the paired geom/stat.}
 }
 \description{
-Computes logpline density (+ counts estimate), probability, survival & hazard
+Computes logspline density (+ counts estimate), probability, survival & hazard
 }
 \examples{
 library(ggplot2)
