@@ -66,7 +66,7 @@ StatLogspline <- ggproto(
 
 )
 
-#' Computes and draws...
+#' Computes logpline density (+ counts estimate), probability, survival & hazard
 #'
 #' @inheritParams ggplot2::stat_density
 #' @param n numbe of points for the density estimation (larger == smoother)

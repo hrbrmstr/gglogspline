@@ -19,6 +19,9 @@ hazard function or survival function from a logspline density
 
 The following functions are implemented:
 
+  - `stat_logspline`: Computes logpline density (+ counts estimate),
+    probability, survival & hazard
+
 ## Installation
 
 ``` r
@@ -96,8 +99,8 @@ ggplot(xdf) +
 
 | Lang | \# Files | (%) | LoC |  (%) | Blank lines |  (%) | \# Lines | (%) |
 | :--- | -------: | --: | --: | ---: | ----------: | ---: | -------: | --: |
-| R    |        4 | 0.8 |  63 | 0.67 |          20 | 0.47 |       53 | 0.6 |
-| Rmd  |        1 | 0.2 |  31 | 0.33 |          23 | 0.53 |       35 | 0.4 |
+| R    |        4 | 0.8 |  63 | 0.67 |          20 | 0.45 |       53 | 0.6 |
+| Rmd  |        1 | 0.2 |  31 | 0.33 |          24 | 0.55 |       36 | 0.4 |
 
 ## Code of Conduct
 

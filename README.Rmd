@@ -26,6 +26,8 @@ Methods are provided to plot a logspline density, distribution function, hazard 
 
 The following functions are implemented:
 
+- `stat_logspline`:	Computes logpline density (+ counts estimate), probability, survival & hazard
+
 ## Installation
 
 ```{r install-ex, eval=FALSE}
